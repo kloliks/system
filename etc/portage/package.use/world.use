@@ -1,0 +1,83 @@
+app-admin/conky lua lua-cairo lua-imlib
+
+
+app-editors/vim vim-pager python
+
+
+app-emulation/virtualbox -additions
+app-emulation/vmware-tools vmware_guest_windows
+app-emulation/wine fontconfig staging
+
+
+dev-lang/erlang smp
+dev-lang/python sqlite
+
+
+dev-libs/elfutils static-libs
+
+
+dev-python/ipython -qt4
+
+
+dev-qt/qtgui gtkstyle
+dev-qt/qtwidgets gtkstyle
+
+
+dev-scheme/guile networking
+
+
+kde-apps/okular djvu chm
+
+
+net-im/skype apulse
+
+
+net-misc/curl adns
+net-misc/teamviewer system-wine
+
+
+media-gfx/exiv2 xmp
+media-gfx/feh -xinerama
+
+
+media-libs/freetype -cleartype_hinting
+media-libs/libsdl2 haptic
+#media-libs/mesa xa gles2
+media-libs/sdl2-mixer fluidsynth midi
+
+
+media-sound/flacon qt5
+media-sound/moc ffmpeg
+
+
+media-video/ffmpeg threads fdk
+
+
+sys-devel/llvm clang
+
+
+x11-drivers/nvidia-drivers gtk3
+x11-drivers/xf86-video-intel uxa -sna
+
+x11-libs/cairo -qt4
+x11-libs/gtk+ -vim-syntax
+x11-libs/libva egl
+
+
+x11-terms/rxvt-unicode 256-color xft -vanilla alt-font-width
+
+
+www-plugins/gnash nsplugin
+
+
+# required by www-client/firefox-52.6.0::gentoo[system-sqlite]
+# required by @selected
+# required by @world (argument)
+>=dev-db/sqlite-3.23.1 secure-delete
+
+>=sys-libs/tevent-0.9.31 python
+dev-libs/boost python
+
+>=media-libs/libvpx-1.5.0 postproc
+
+>=app-text/ghostscript-gpl-9.09 cups

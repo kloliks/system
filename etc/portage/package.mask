@@ -1,0 +1,6 @@
+#=net-libs/gnutls-3.3.1
+# media-gfx/feh
+app-emulation/emul-linux-x86-*
+
+# x11-base/xorg-server:0/1.16.1= required by (x11-drivers/xf86-video-ati-7.5.0:0/0::gentoo, installed)
+#>=x11-base/xorg-server-1.17
